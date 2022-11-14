@@ -1,0 +1,10 @@
+name: Build_docker_image
+on: [push]
+
+run-name: Build
+
+
+jobs:
+  build:
+    name: build
+    runs-on: docker
